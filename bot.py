@@ -16,8 +16,8 @@ logger.addHandler(handler)
 
 ENDPOINT_URI = 'https://trialbot-api.line.me/v1/events'
 PROXIES = {
-    'http': os.environ.get('54.173.229.200', '24'),
-    'https': os.environ.get('54.175.230.252', '24')
+    'http': os.environ.get('FIXIE_URL', ''),
+    'https': os.environ.get('FIXIE_URL', '')
 }
 #DOCOMO_API_KEY = os.environ.get('DOCOMO_API_KEY', '')
 
