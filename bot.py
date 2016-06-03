@@ -42,7 +42,7 @@ class CallbackResource(object):
             raise falcon.HTTPBadRequest('Empty request body',
                                         'A valid JSON document is required.')
 
-        receive_params = json.loads(body.decode('utf-8')) #json文字列をデコード
+        receive_params = json.loads(body.decode('utf-8')) # json文字列をデコード
         logger.debug('receive_params: {}'.format(receive_params))
 
         for msg in receive_params['result']:
