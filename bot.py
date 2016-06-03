@@ -26,9 +26,9 @@ class CallbackResource(object):
     # line
     header = {
         'Content-Type': 'application/json; charset=UTF-8',
-        'X-Line-ChannelID': os.environ['LINE_CHANNEL_ID'],
-        'X-Line-ChannelSecret': os.environ['LINE_CHANNEL_SECRET'],
-        'X-Line-Trusted-User-With-ACL': os.environ['LINE_CHANNEL_MID'],
+        'X-Line-ChannelID': os.environ['1469516734'],
+        'X-Line-ChannelSecret': os.environ['49c5e8fa213e6ca040388ef7252d37a1'],
+        'X-Line-Trusted-User-With-ACL': os.environ['u9760445bcb6c160e910edd2b15030613'],
     }
 
     # docomo
