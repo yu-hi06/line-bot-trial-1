@@ -1,3 +1,7 @@
 # line-bot-trial-1
-HEROKUとつなぐ
+HEROKUとつないでFIXIEからproxieを持ってくる。
+
+LINEの各ユーザー情報とFIXIE_URLは各自環境変数で設定
+
 送られてきた文章をオウム返しするBOT
+
